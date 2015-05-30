@@ -1,0 +1,31 @@
+{
+  "name": "Peach",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.3.8",
+    "ejs": "*",
+    "mongodb": "*",
+    "body-parser": "*",
+    "expect.js": "*",
+    "supertest": "*"
+  },
+  "description": "This is a simple chat for learn js.",
+  "main": "peach",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "JS",
+    "NodeJS",
+    "Chat",
+    "MongoDB",
+    "Bootstrap"
+  ],
+  "author": "Maria Baeva & Aleksey Ivashin",
+  "license": "ISC"
+}

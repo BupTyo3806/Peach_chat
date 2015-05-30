@@ -1,0 +1,9 @@
+{
+  "port": 80,
+  "mongodb": {
+    "url": "mongodb://127.0.0.1:27017/test"
+  },
+  "session": {
+    "secret": "koala"
+  }
+}
