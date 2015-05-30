@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Peach! &middot Регистрация</title>
+
+    <link rel="stylesheet" href="/vendor/bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/app.css"/>
+
+    <script src="/vendor/bower_components/jquery/jquery.js"></script>
+    <script src="/vendor/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        body {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #1946BA;
+        }
+
+        .form-signin, .form-main, .form-head {
+            max-width: 300px;
+            padding: 19px 29px 29px;
+            margin: 0 auto 20px;
+            background-color: #fff;
+            border: 1px solid #e5e5e5;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            box-shadow: 0 1px 2px rgba(0,0,0,.05);
+        }
+        .form-signin .form-signin-heading,
+        .form-signin .checkbox {
+            margin-bottom: 10px;
+        }
+        .form-signin input[type="text"],
+        .form-signin input[type="password"] {
+            font-size: 16px;
+            height: auto;
+            margin-bottom: 15px;
+            padding: 7px 9px;
+        }
+        .form-main, .form-head {
+            max-width: none;
+            background-color: #ffffff;
+        }
+
+    </style>
+</head>
+<body >
+<div class="container">
+    <div class="row">
+        <div class="span12" align="center" style="margin: -20px 0 20px 0;">
+            <img src="logo_peach.png" style="height: 90px;">
+            <img src="peach.png" style="height: 90px; margin-right: -20px;">
+        </div>
+    </div>
+    <div class="form-main">
+        <form action="/reg" method="post">
+            <input type="text" class="input-block-level" placeholder="Логин" name="login" style="margin: 10px auto;" required>
+            <input type="password" class="input-block-level" placeholder="Пароль" name="password" style="margin: 10px auto;" required>
+            <button class="btn btn-primary" type="submit" style="margin: 10px auto;">Регистрация</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
